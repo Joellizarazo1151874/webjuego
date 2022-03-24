@@ -11,7 +11,7 @@ function sumarPuntos(){
 	document.getElementById("player").style.marginTop = randNum + "px";
 	document.getElementById("player").style.marginLeft = randNum2 + "px";
 	if(puntos == 55){
-		alert("ganaste mi amor, no estuvo dificil verdad ;)");
+		alert("ganaste, no estuvo dificil verdad ;)");
 	}
 }
 
@@ -19,7 +19,7 @@ function restarTiempo() {
 	tiempo--;
 	document.getElementById("tiempo").innerHTML = "&nbsp;&nbsp;&nbsp;Tiempo: " + tiempo;
 	if(tiempo == 0){
-		alert("Perdiste amor :c intentalo de nuevo uwu");
+		alert("Perdiste... :c intentalo de nuevo, tu puedes uwu");
 		tiempo = 0;
 		puntos = 0;
 	}
